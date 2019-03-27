@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>The Food Nation</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header role="banner">
+            
+            <nav class="row navbar fixed-top" role="navigation">
+                <div class="col-10 col-lg-12 justify-content-center justify-content-md-center text-center text-md-left text-lg-center">
+                    <div class="row justify-content-end justify-content-md-center">
+                        <div class="d-none d-lg-block col-lg-3 desktop_nav_links">
+                            <ul class="row justify-content-center">
+                                <li class="col-lg-6 nav_links"><a href="#">
+                                    menus
+                                </a></li>
+                                <li class="col-lg-6 nav_links"><a href="our_story.html">
+                                    our story
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-10 col-lg-6 logo_index_link">
+                            <h1 class="logo_index"><a href="index.html">The Food Nation</a></h1>
+                        </div>
+
+                        <div class="d-none d-lg-block col-lg-3 desktop_nav_links">
+                            <ul class="row justify-content-center">
+                                <li class="col-lg-6 nav_links"><a href="#">
+                                    contact
+                                </a></li>
+                                <li class="col-lg-6 nav_link_button"><a href="#">
+                                    reservations  
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div> <!-- end row -->
+                </div> <!-- end col-10 -->
+                
+                <div id="myNav" class="overlay d-lg-none">
+
+                    <div class="row text-center text-md-left justify-content-end nav_overlay">
+                        <div class="col-8 col-md-9">
+                            <h2><a href="index.html">The Food Nation</a></h2>
+                        </div>
+                        <div class="col-2 closebtn">
+                            <a href="javascript:void(0)" onclick="closeNav()"><i class="close_icon fas fa-times"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="overlay-content">
+
+                        <div class="navigation_links">
+                            <a href="#">MENUS</a>
+                            <a href="our_story.html">OUR STORY</a>
+                            <a href="#">CONTACT</a>
+                            <a href="#">RESERVATIONS</a>
+                        </div>
+
+                        <div class="row justify-content-center icons">
+                            <a href="https://facebook.com"><i class="icon fab fa-facebook mr-5" aria-label="Facebook icon"></i></a>
+                            <a href="https://instagram.com"><i class="icon fab fa-instagram mr-5" aria-label="Instagram icon"></i></a>
+                            <a href="https://www.tripadvisor.com"><i class="icon fab fa-tripadvisor" aria-label="Tripadvisor icon"></i></a>
+                        </div>
+
+                        <address class="row adress_phone_information">
+                            <p class="col-12 col-md-6 adress">425 - 427, Daisy str., <br /> Rome, Italy</p>
+                            <p class="col-12 col-md-6 phone_number">(08) 36 55 345</p>
+                        </address>
+                    </div>
+
+                </div> <!-- end overlay -->
+
+                <div class="col-2 d-lg-none">
+                    <span onclick="openNav()">
+                        <i class="hamburger_menu fas fa-bars"></i>
+                    </span>
+                </div>
+            </nav>
+
+        </header>
+
+        <main role="main">
+            <div class="row carousel_index">
+                <div id="carousel" class="carousel slide d-flex col-md-12 justify-content-center" data-ride="carousel"
+                    data-interval="false">
+                    <ol class="col-10 col-md-9 justify-content-start justify-content-md-end carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner col-12 col-md-10">
+                        <div class="carousel-item item active image_frame_carousel">
+                            <img class="d-block" src="images/risotto.jpg" alt="First slide" title="Risotto">
+                        </div>
+                        <div class="carousel-item item image_frame_carousel">
+                            <img class="d-block" src="images/fish.jpg" alt="Second slide" title="Fish dish">
+                        </div>
+                        <div class="carousel-item item image_frame_carousel">
+                            <img class="d-block" src="images/soup.jpg" alt="Third slide" title="Seafood soup">
+                        </div>
+                        <div class="carousel-item item image_frame_carousel">
+                            <img class="d-block" src="images/hamburger.jpg" alt="Fourth slide" title="Burger dish">
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control col-md-1 carousel-control-prev" href="#carousel" role="button"
+                        data-slide="prev">
+                        <span><i class="d-none d-md-block fa fa-angle-left carousel_prev_next_icons" aria-hidden="true"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control col-md-1 carousel-control-next" href="#carousel" role="button"
+                        data-slide="next">
+                        <span><i class="d-none d-md-block fa fa-angle-right carousel_prev_next_icons" aria-hidden="true"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div> <!-- end carousel -->
+            </div> <!-- end row -->
+
+            <footer class="row justify-content-center footer" role="contentinfo">
+                <div class="d-none d-md-flex col-md-5 icons">
+                    <a href="https://facebook.com"><i class="icon fab fa-facebook mr-3" aria-label="Facebook icon"></i></a>
+                    <a href="https://instagram.com"><i class="icon fab fa-instagram mr-3" aria-label="Instagram icon"></i></a>
+                    <a href="https://www.tripadvisor.com"><i class="icon fab fa-tripadvisor" aria-label="Tripadvisor icon"></i></a>
+                </div>
+
+                <div class="d-none d-md-block text-md-right col-md-5">
+                    <p>@2018 The Food Nation. All Rights Reserved.</p>
+                </div>
+            </footer>
+
+        </main>
+
+    </div> <!-- end container -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script>
+        //Jquery that hide prev button on first slide and hide next button on last slide.
+
+        $('.carousel').carousel({
+            interval: false,
+        })
+
+        $(document).ready(function () { 
+            checkitem();
+        });
+
+        $('#carousel').on('slid.bs.carousel', checkitem);
+
+        function checkitem() 
+        {
+            var $this = $('#carousel');
+            if ($('.carousel-inner .item:first').hasClass('active')) {
+                $this.children('.left.carousel-control').hide();
+                $this.children('.right.carousel-control').show();
+            } else if ($('.carousel-inner .item:last').hasClass('active')) {
+                $this.children('.right.carousel-control').hide();
+                $this.children('.left.carousel-control').show();
+            } else {
+                $this.children('.carousel-control').show();
+            }
+        }
+
+        //JavaScript to make the dropdown menu. 
+
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+body {
+    background-color: $background_color;
+}
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+
+    .navbar {
+        padding: 0;
+        background: rgba(250, 241, 237, 0.5);
+        height: 10vh;
+
+
+    .logo_index_link {
+
+        .logo_index a {
+            text-decoration: none;
+            color: $accent_color;
+            font-family: $font_title;
+            font-weight: 600;
+            text-decoration: line-through;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+    }
+
+    .hamburger_menu {
+        color: $accent_color;
+        padding-top: 0.3em;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #252525;
+    overflow-y: hidden;
+    transition: 0.5s;
+
+    .nav_overlay {
+        height: 10vh;
+        padding-top: 1em;
+    }
+
+    .close_icon {
+        padding-right: 0.5em;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    
+    h2 a {
+        color: #ffffff;
+        font-family: $font_title;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: line-through;
+        letter-spacing: 3px;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+
+        .navigation_links {
+            height: 250px;
+        
+            a {
+                padding-bottom: 1.5em;
+                text-decoration: none;
+                color: #ffffff;
+                display: block;
+                font-family: $font_body;
+
+                &:active {
+                    color: $accent_color;
+                }
+            }
+        }
+
+        .icons {
+            padding-top: 3em;
+            height: 100px;
+        
+            .icon {
+                color: $accent_color;
+                font-size: 1.5rem;
+            }
+        }
+
+        .adress_phone_information {
+
+            .adress {
+                color: #ffffff;
+                font-family: $font_body;
+            }
+      
+            .phone_number {
+                color: $accent_color;
+                font-family: $font_body;
+                font-weight: 800;
+            }
+        }  
+    }
+}
+  
+@media screen and (max-height: 1024px) {
+    .overlay {
+        overflow-y: auto;
+    }
+}
+
+.carousel {
+    padding: 0;
+}
+
+.carousel_index {
+    margin-top: 10vh;
+    height: 90vh;
+
+    .image_frame_carousel {
+        height: 90vh;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 90vh;
+        }
+    }
+
+    .carousel-inner {
+        padding: 0;
+    }
+}
+
+#carousel li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid $accent_color;
+    background-color: transparent;
+    opacity: 1;
+    margin-right: 2em;
+}
+
+#carousel .active {
+    background-color: $accent_color;
+}
+
+.carousel-indicators {
+    margin-bottom: 3em;
+}
+
+//Our story css
+
+.container-fluid {
+    padding: 0;
+}
+
+.our_story_back_image1 {
+    margin-top: 10vh;
+    background-image: url("../images/nick\ \(1\).jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box_overlay {
+        min-height: 300px;
+        margin-left: 1em;
+        background-color: rgba(00, 00, 00, 0.6);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        top: 250px;
+
+        .our_story_headings {
+            color: #ffffff;
+            font-family: $font_title;
+            font-weight: 600;
+            text-shadow: 2px 2px 8px #000000;
+            letter-spacing: 4px;
+            padding-top: 0.5em;
+        }
+
+        .our_story_text {
+            color: #ffffff;
+            font-family: $font_body;
+        }
+
+        .angle_down {
+            color: #ffffff;
+            font-size: 3rem;
+        }
+    }
+}
+
+
+.our_story_back_image2 {
+    background-image: url("../images/michael\ \(1\).jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box_overlay {
+        min-height: 250px;
+        margin-left: 1em;
+        background-color: rgba(00, 00, 00, 0.6);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        top: 300px;
+
+        .our_story_headings {
+            color: #ffffff;
+            font-family: $font_title;
+            font-weight: 600;
+            text-shadow: 2px 2px 8px #000000;
+            letter-spacing: 4px;
+            padding-top: 0.5em;
+        }
+
+        .our_story_text {
+            margin-top: 2em;
+            color: #ffffff;
+            font-family: $font_body;
+        }
+
+        .angle_down {
+            color: #ffffff;
+            font-size: 3rem;
+        }
+    }
+}
+
+.our_story_back_image3 {
+    background-image: url("../images/FABRIZIO\ \(1\).jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box_overlay {
+        min-height: 200px;
+        margin-left: 1em;
+        background-color: rgba(00, 00, 00, 0.6);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        top: 200px;
+
+        .our_story_headings {
+            color: #ffffff;
+            font-family: $font_title;
+            font-weight: 600;
+            text-shadow: 2px 2px 8px #000000;
+            letter-spacing: 4px;
+            padding-top: 0.5em;
+        }
+
+        .our_story_text {
+            color: #ffffff;
+            font-family: $font_body;
+        }
+    }
+}
+
+.our_story_footer {
+    height: 13vh;
+    background-color: $background_color;
+    
+    .copyright_text {
+        padding-top: 2em;
+        font-family: $font_body;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .brand_name {
+        padding-top: 0;
+        font-family: $font_body;
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+ 
